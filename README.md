@@ -1,0 +1,1 @@
+This repository was created for educational purposes. If you'd like to share a project that would help others learn python please leave a comment or a pull request. Thank you! :) 
