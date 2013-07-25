@@ -17,4 +17,9 @@ def fibSequence(n):
 
 	return(', '.join(series))
 
-print(fibSequence(int(input('How many numbers do you need? '))))
+def main():
+
+	print(fibSequence(int(input('How many numbers do you need? '))))
+
+if __name__ == '__main__':
+	main()
