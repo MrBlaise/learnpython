@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+
+# Fibonacci Value
+# Have the user enter a number
+# and calculate that number's
+# fibonacci value.
+
 def fib(x):
 
     """
