@@ -24,7 +24,7 @@ def fib(x):
 
     return n_2
 
-def main ():
+def main (): # Wrapper function
 
 	x = int(input('Enter a number to get its fibonacci value: '))
 

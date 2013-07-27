@@ -25,7 +25,7 @@ def fibSequence(n):
 
 	return(', '.join(series)) # Return the sequence seperated by commas
 
-def main():
+def main(): # Wrapper function
 
 	print(fibSequence(int(input('How many numbers do you need? '))))
 

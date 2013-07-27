@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
 
-# Generator function 
-# Prints out the digits of PI until it reaches the given limit
-def calcPi(limit):
+# Find PI to the Nth Digit
+# Have the user enter a number 'n'
+# and print out PI to the 'n'th digit
+
+def calcPi(limit): # Generator function 
+
+  """
+  Prints out the digits of PI 
+  until it reaches the given limit
+  """
 
   q, r, t, k, n, l = 1, 0, 1, 1, 3, 3
 
