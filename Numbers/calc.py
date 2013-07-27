@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# Calculator
+# Have the user enter 2 number - a. b -
+# and an operator - op - and calculate
+# the solution - c - according to the
+# type of the given operator
+
 def calc(a, b, op):
 	"""
 	Returns a string like this: a op b = c
@@ -19,7 +25,7 @@ def calc(a, b, op):
 	if op == '/':
 		return(str(a)+' '+op+' '+str(b)+' = '+str(a/b))
 
-def main():
+def main(): # Wrapper function
 
 	a = int(input('Please type the first number: '))
 	b = int(input('Please type the second number: '))
