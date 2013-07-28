@@ -44,7 +44,7 @@ def main(): # Wrapper function
 
 	while True:
 
-		if n == 1 or n == 0:
+		if n == 0 or n == 1:
 			break
 
 		for i in range(counter, n+1):
@@ -53,8 +53,6 @@ def main(): # Wrapper function
 					factors.append(i)
 					n //= i
 					break
-		if n == 1:
-			break
 
 	if len(factors) != 0:
 		factors = getExponent(factors)
