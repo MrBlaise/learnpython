@@ -11,6 +11,11 @@ from collections import Counter
 
 def isPrime(x):
 
+	"""
+	Checks whether the given
+	number x is prime or not
+	"""
+
 	if x == 2:
 		return True
 
@@ -21,6 +26,12 @@ def isPrime(x):
 	return True
 
 def getExponent(n):
+
+	"""
+	Counts the same elements in n list
+	returns a list with the exponent of
+	the multiple elements
+	"""
 
 	c = Counter(n)
 	factors = []

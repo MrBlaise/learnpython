@@ -6,6 +6,11 @@
 
 def isPrime(x):
 
+	"""
+	Checks whether the given
+	number x is prime or not
+	"""
+
 	if x == 2:
 		return True
 
@@ -16,6 +21,11 @@ def isPrime(x):
 	return True
 
 def genPrime(currentPrime):
+
+	"""
+	Returns the next prime
+	after the currentPrime
+	"""
 
 	newPrime = currentPrime + 1
 	
@@ -28,7 +38,7 @@ def genPrime(currentPrime):
 
 	return newPrime
 
-def main():
+def main(): # Wrapper function
 
 	currentPrime = 2
 
