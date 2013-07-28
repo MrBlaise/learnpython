@@ -10,3 +10,5 @@ Numbers
 [**Calculator**](https://github.com/MrBlaise/learnpython/blob/master/Numbers/calc.py) - A simple calculator to do the 4 basic operations (Later make it scientific).
 
 [**Prime Factorization**](https://github.com/MrBlaise/learnpython/blob/master/Numbers/prime.py) – Have the user enter a number and find its prome factors. Extra: Show the exponent of each prime factor as well.
+
+[**Next Prime Number**](https://github.com/MrBlaise/learnpython/blob/master/Numbers/next_prime.py) – Have the program generate prime numbers until the user chooses to stop.
