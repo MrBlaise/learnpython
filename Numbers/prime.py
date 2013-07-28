@@ -14,11 +14,11 @@ def isPrime(x):
 	if x == 2:
 		return True
 
-	for i in range(2, x+1):
+	for i in range(2, x):
 		if x % i == 0:
 			return False
-		else:
-			return True
+			
+	return True
 
 def getExponent(n):
 
@@ -40,7 +40,7 @@ def main(): # Wrapper function
 	n = int(input('Enter a number to find its prime factors: '))
 
 	factors = []
-	counter = 1
+	counter = 2
 
 	while True:
 
