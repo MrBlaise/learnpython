@@ -11,7 +11,7 @@ def changeCalc(cost, money):
 
     if money < cost:
 
-        print('Please pay ', cost - money,'$ more', sep='')
+        print('Please pay ', cost - money, '$ more', sep='')
 
     else:
 
@@ -23,10 +23,10 @@ def main():
     cost = int(input('Enter the cost of the item: '))
     money = int(input('Enter the money given: '))
 
-    change = changeCalc(cost,money)
+    change = changeCalc(cost, money)
 
     if type(change) == int:
-        print('The change is: ',change, '$', sep='')
+        print('The change is: ', change, '$', sep='')
 
 if __name__ == '__main__':
     main()

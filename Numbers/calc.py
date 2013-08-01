@@ -31,7 +31,8 @@ def main():  # Wrapper function
     a = int(input('Please type the first number: '))
     b = int(input('Please type the second number: '))
     op = input(
-        'What kind of operation would you like to do?\nChoose between "+, -, *, /" : ')
+        'What kind of operation would you like to do?\
+        \nChoose between "+, -, *, /" : ')
 
     print(calc(a, b, op))
 
