@@ -8,7 +8,8 @@ executed if it is not imported to another *.py file
 
 """
 
-def main(): 
+
+def main():
 
     print('Hello, World!')
 

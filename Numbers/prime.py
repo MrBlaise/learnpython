@@ -9,8 +9,8 @@
 
 from collections import Counter
 
-def isPrime(x):
 
+def isPrime(x):
     """
     Checks whether the given
     number x is prime or not
@@ -22,11 +22,11 @@ def isPrime(x):
     for i in range(2, x):
         if x % i == 0:
             return False
-            
+
     return True
 
-def getExponent(n):
 
+def getExponent(n):
     """
     Counts the same elements in n list
     returns a list with the exponent of
@@ -36,17 +36,17 @@ def getExponent(n):
     c = Counter(n)
     factors = []
 
-    for i in range(min(n), max(n)+1):
+    for i in range(min(n), max(n) + 1):
         if i in n:
             if c[i] != 1:
-                factors.append(str(i)+'^'+str(c[i]))
+                factors.append(str(i) + '^' + str(c[i]))
             else:
                 factors.append(str(i))
 
     return factors
 
 
-def main(): # Wrapper function
+def main():  # Wrapper function
 
     n = int(input('Enter a number to find its prime factors: '))
 
@@ -58,7 +58,7 @@ def main(): # Wrapper function
         if n == 0 or n == 1:
             break
 
-        for i in range(counter, n+1):
+        for i in range(counter, n + 1):
             if n % i == 0:
                 if isPrime(i):
                     factors.append(i)

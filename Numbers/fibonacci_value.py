@@ -7,13 +7,12 @@
 # fibonacci value.
 
 def fib(x):
-
     """
     Assumes x an integer >= 0
     Returns Fibonacci value of x
 
     """
-    assert type(x) == int and x >= 0
+    assert isinstance(x, int) and x >= 0
 
     n_1, n_2, i = 1, 1, 2
 
@@ -24,7 +23,8 @@ def fib(x):
 
     return n_2
 
-def main (): # Wrapper function
+
+def main():  # Wrapper function
 
     x = int(input('Enter a number to get its fibonacci value: '))
 

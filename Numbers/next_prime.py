@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 
 # Next Prime Number
-# Generate prime numbers until 
+# Generate prime numbers until
 # the user chooses to stop
 
-def isPrime(x):
 
+def isPrime(x):
     """
     Checks whether the given
     number x is prime or not
@@ -17,18 +17,18 @@ def isPrime(x):
     for i in range(2, x):
         if x % i == 0:
             return False
-            
+
     return True
 
-def genPrime(currentPrime):
 
+def genPrime(currentPrime):
     """
     Returns the next prime
     after the currentPrime
     """
 
     newPrime = currentPrime + 1
-    
+
     while True:
 
         if not isPrime(newPrime):
@@ -38,7 +38,8 @@ def genPrime(currentPrime):
 
     return newPrime
 
-def main(): # Wrapper function
+
+def main():  # Wrapper function
 
     currentPrime = 2
 

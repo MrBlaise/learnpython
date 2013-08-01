@@ -6,6 +6,7 @@
 # And will give more accurate
 # answers using cents as well
 
+
 def changeCalc(cost, money):
 
     if money < cost:
@@ -14,7 +15,8 @@ def changeCalc(cost, money):
 
     else:
 
-        return -1*(cost - money)
+        return -1 * (cost - money)
+
 
 def main():
 
