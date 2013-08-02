@@ -12,3 +12,5 @@ Numbers
 [**Prime Factorization**](https://github.com/MrBlaise/learnpython/blob/master/Numbers/prime.py) – Have the user enter a number and find its prome factors. Extra: Show the exponent of each prime factor as well.
 
 [**Next Prime Number**](https://github.com/MrBlaise/learnpython/blob/master/Numbers/next_prime.py) – Have the program generate prime numbers until the user chooses to stop.
+
+[**Change Return Program**](https://github.com/MrBlaise/learnpython/blob/master/Numbers/change.py) – The user enters a cost of the purchase and then the amount of money given. The program will figure out the change and the number of bills and coins for the change.
