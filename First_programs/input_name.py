@@ -20,11 +20,11 @@ def main():  # Wrapper function
 
         # END
         # The 'end' argument is what the program prints
-        # after the print statement.
+        # after the print function.
         # By default is '\n' (newline)
         # so you don't need to put that there, however
         # there are some cases when you don't want a newline after
-        # every print statement, so this is good to know.
+        # every print function, so this is good to know.
 
 
 if __name__ == '__main__':
