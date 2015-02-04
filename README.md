@@ -1,7 +1,7 @@
-Learn Python
+Learn Python 3
 ========
 
-This repository was created for educational purposes. If you'd like to share a project that would help others learn Python please leave a comment or a pull request. Thank you! :)
+This repository was created for educational purposes. If you'd like to share a project that would help others learn Python 3 please leave a comment or a pull request. Thank you! :)
 
 You are welcome to fork this repo and add your projects to it as well.
 
