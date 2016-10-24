@@ -1,3 +1,8 @@
+Disclamer
+----------
+
+I haven't updated this repository in a while, however I am planing to start working on this again. Some examples might not be perfect and need some update I welcome feedbacks and pull requests.
+
 Learn Python 3
 ========
 
