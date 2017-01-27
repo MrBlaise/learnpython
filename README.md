@@ -39,3 +39,9 @@ Numbers
 [**Next Prime Number**](https://github.com/MrBlaise/learnpython/blob/master/Numbers/next_prime.py) – Have the program generate prime numbers until the user chooses to stop.
 
 [**Change Return Program**](https://github.com/MrBlaise/learnpython/blob/master/Numbers/change.py) – The user enters a cost of the purchase and then the amount of money given. The program will figure out the change and the number of bills and coins for the change.
+
+Sorting
+---------
+
+[**QuickSort**](https://github.com/MrBlaise/learnpython/blob/master/Sorting/QuickSort.py) – This is for creating a quicksort algorithm that uses an array of elements which are taken from a Standard Normal Distribution and prints out the Normal Distribution Graph of the array elements and also the the number of comparisons taking place. (Contributor: [prateekiiest](https://github.com/prateekiiest))
+
