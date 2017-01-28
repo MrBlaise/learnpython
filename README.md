@@ -40,3 +40,20 @@ Sorting
 
 [**QuickSort**](https://github.com/MrBlaise/learnpython/blob/master/Sorting/QuickSort.py) – This is for creating a quicksort algorithm that uses an array of elements which are taken from a Standard Normal Distribution and prints out the Normal Distribution Graph of the array elements and also the the number of comparisons taking place. (Contributor: [prateekiiest](https://github.com/prateekiiest))
 
+----------------
+
+
+## Get your programs running
+
+Installation
+------------
+
+To begin, install the following requirements:
+
+ * [Python](http://www.python.org) (2.7.x, 3.4.x or later)
+ * [NumPy](http://numpy.scipy.org/)
+ * [SciPy](http://www.scipy.org/)
+ * [Matplotlib](http://matplotlib.sourceforge.net/) (1.1+)
+ * [suds-jurko](https://bitbucket.org/jurko/suds)
+ * [pandas](http://pandas.pydata.org/) (0.10.0+)
+
