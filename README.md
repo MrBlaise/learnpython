@@ -40,7 +40,7 @@ Sorting
 
 [**QuickSort**](https://github.com/MrBlaise/learnpython/blob/master/Sorting/QuickSort.py) – This is for creating a quicksort algorithm that uses an array of elements which are taken from a Standard Normal Distribution and prints out the Normal Distribution Graph of the array elements and also the the number of comparisons taking place. (Contributor: [prateekiiest](https://github.com/prateekiiest))
 
-Words
+Cryptography
 ---------
 
 [Caesar Cipher](https://github.com/MrBlaise/learnpython/blob/master/Words/Caesar%20Cipher) - A Caesar Cipher written in python3 (Contributor: [khazelrigg](https://github.com/khazelrigg))
