@@ -83,6 +83,20 @@ Comparing the complexity of sorting algorithms (Bubble Sort, Insertion Sort, Sel
 
 [Complexity Graphs](https://github.com/prateekiiest/Python/blob/master/sorts/sortinggraphs.png)
 
+
+###TimSort
+
+![alt text][timsort-image]
+
+From [Wikipedia][timsort-wiki]: Timsort is a hybrid stable sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data. It was implemented by Tim Peters in 2002 for use in the Python programming language. The algorithm finds subsequences of the data that are already ordered, and uses that knowledge to sort the remainder more efficiently. This is done by merging an identified subsequence, called a run, with existing runs until certain criteria are fulfilled.
+
+On small lists of random elements, Timsort looks just like mergesort. The image above was generated with the type of data that Timsort really shines on - a partially ordered array. This lets us see behaviours like run detection and the bulk reversal of chunks of reverse-sorted data.
+
+__Properties__
+* Worst case performance O(nlogn)
+* Best-case performance	O(n^2)
+* Average performance O(nlogn)
+
 ----------------------------------------------------------------------------------
 
 
@@ -109,3 +123,5 @@ Comparing the complexity of sorting algorithms (Bubble Sort, Insertion Sort, Sel
 [shell-toptal]: https://www.toptal.com/developers/sorting-algorithms/shell-sort
 [shell-wiki]: https://en.wikipedia.org/wiki/Shellsort
 [shell-image]: https://upload.wikimedia.org/wikipedia/commons/d/d8/Sorting_shellsort_anim.gif "Shell Sort"
+[timsort-wiki]: https://en.wikipedia.org/wiki/Timsort
+[timsort-image]: http://sortvis.org/images/weave-timsort.png
