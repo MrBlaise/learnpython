@@ -10,7 +10,7 @@
 from collections import Counter
 
 
-def isPrime(x):
+def is_prime(x):
     """
     Checks whether the given
     number x is prime or not
@@ -29,7 +29,7 @@ def isPrime(x):
     return True
 
 
-def getExponent(n):
+def get_exponent(n):
     """
     Counts the same elements in n list
     returns a list with the exponent of
@@ -63,13 +63,13 @@ def main():  # Wrapper function
 
         for i in range(counter, n + 1):
             if n % i == 0:
-                if isPrime(i):
+                if is_prime(i):
                     factors.append(i)
                     n //= i
                     break
 
     if len(factors) != 0:
-        factors = getExponent(factors)
+        factors = get_exponent(factors)
         print(', '.join(factors))
     else:
         print('The number', n, 'does not have any prime factors.')
