@@ -3,7 +3,7 @@
 
 MAX_SHIFT = 26
 
-def whatMode():
+def what_mode():
     """ Finds out what the user wants to do """
     while True:
         print("Do you wish to encrypt,  decrypt or brute force a message: ")
@@ -13,30 +13,30 @@ def whatMode():
         else:
             print("Enter '[E]ncrypt',  '[D]ecrypt' or [B]rute")
 
-def plainMessage():
+def plain_message():
     """ Gets a string from the user """
     print ("Message: ")
     return input()
 
-def getKey():
+def get_key():
     """ Gets a shift value from the user """
-    shiftKey = 0
+    shift_key = 0
     while True:
         print("Enter shift key (1-%s) " % (MAX_SHIFT))
-        shiftKey = int(input())
-        if (shiftKey >= 1 and shiftKey <= MAX_SHIFT):
-            return shiftKey
+        shift_key = int(input())
+        if (shift_key >= 1 and shift_key <= MAX_SHIFT):
+            return shift_key
 
-def cryptMessage(mode, message, shiftKey):
+def crypt_message(mode, message, shift_key):
     """ The encryption / decryption action is here """
     if mode[0] == 'd':
-        shiftKey = -shiftKey
+        shift_key = -shift_key
     translated = ''
 
     for symbol in message: # The encryption stuff
         if symbol.isalpha():
             num = ord(symbol)
-            num += shiftKey
+            num += shift_key
 
             if symbol.isupper():
                 if num > ord('Z'):
@@ -55,16 +55,16 @@ def cryptMessage(mode, message, shiftKey):
             translated += symbol
     return translated
 
-mode = whatMode()
-message = plainMessage()
+mode = what_mode()
+message = plain_message()
 
 if mode[0] != 'b':
-    shiftKey = getKey()
+    shift_key = get_key()
 
 print('Your translated text is:')
 
 if mode[0] != 'b': #Brute force settings
-    print(cryptMessage(mode, message, shiftKey))
+    print(crypt_message(mode, message, shift_key))
 else:
-    for shiftKey in range(1, MAX_SHIFT + 1):
-        print(shiftKey, cryptMessage('decrypt', message, shiftKey))
+    for shift_key in range(1, MAX_SHIFT + 1):
+        print(shift_key, crypt_message('decrypt', message, shift_key))
